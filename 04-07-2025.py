@@ -36,8 +36,8 @@ print(remove_duplicates({'Ravi':[2,3],'Sita':[3,4,5]}))
 
 def count_rows(matrix):
 	values = []
-	for row in range(len(test_list)):
-		values.append(len(test_list[row]))
+	for row in range(len(matrix)):
+		values.append(len(matrix[row]))
 
 	
 	dict1 = dict(Counter(values))
